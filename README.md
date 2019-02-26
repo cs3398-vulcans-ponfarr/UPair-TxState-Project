@@ -13,3 +13,7 @@ UPair is an application that allows students to pair up with other students that
 Help Support Development!
 
 UPair can expand and spread to many different universities across the globe with help in the form of: server access at participating universities, a dedicated website, and an expanded development team to maintain and push out updates.
+
+Current State of Program
+
+UPair is currently non functional as the code is still be created by the development team. The development team is currently making progress toward runnable code. Current steps that are being taken are: the creation of program backbone, creation of database operation code, creation of program flow, and design of a graphical user interface. Current steps that have been completed: creation of a Use Case document for the program flow.
