@@ -1,0 +1,62 @@
+class User(object)
+
+	def __init__(self, d_name, d_pass, email, inStatus):
+		self.d_name = d_name
+		self.d_pass = d_pass
+		self.email = email
+		self.inStatus = inStatus
+
+	def logIn(self):
+	
+		# get username and password
+		print ('Enter username: ')
+		u_name = input();
+		print ('Enter password: ')
+		pass = input();
+		
+		# compare with user database
+		if u_name == d_name and pass == d_pass
+			self.inStatus = True
+			return True
+		
+		self.inStatus = False
+		return False
+		
+	def logOut(self):
+	
+		self.inStatus = False
+		
+	def setName(self, name):
+	
+		self.d_name = name
+		
+	def getName(self):
+	
+		return self.d_name
+		
+	def setEmail(self, email):
+		
+		self.email = email
+	
+	def getEmail(self):
+	
+		return self.email
+		
+	def setPassword(self, pass):
+		
+		self.d_pass = pass
+		
+	def getPassword(self):
+	
+		return self.d_pass
+		
+	def addClasses(self, class):
+		
+		self.classList = []
+		self.classList.append(class)
+		
+	def getClasses(self, classList):
+	
+		for x in classList
+			print(x)
+			
