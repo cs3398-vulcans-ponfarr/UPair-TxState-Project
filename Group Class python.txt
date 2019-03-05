@@ -1,0 +1,40 @@
+class Group(object)
+
+	def __init__(self, g_creator, g_ID):
+		self.g_creator = g_creator
+		self.memberList = []
+		self.memberList.append(g_creator)
+		self.limiter = "null"
+		self.accept = "null"
+		self.g_ID = g_ID
+		
+	def setCreator(self, creator):
+		self.g_creator = creator
+		
+	def getCreator(self):
+		return self.g_creator
+		
+	def addMember(self, member):
+		self.memberList.append(member)
+		
+	def getMemberList(self):
+		for x in memberList
+			print(x)
+			
+	def setLimiter(self, limiter):
+		self.limiter = limiter
+		
+	def getLimiter(self):
+		return self.limiter
+		
+	def setAcceptException(self, a_exception):
+		self.accept = a_exception
+		
+	def getAcceptException(self):
+		return self.accept
+		
+	def setID(self, id):
+		self.g_ID = id
+		
+	def getID(self):
+		return self.g_ID

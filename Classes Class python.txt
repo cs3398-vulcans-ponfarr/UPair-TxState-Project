@@ -1,0 +1,31 @@
+class Classes(object)
+
+	def __init__(self, c_name, c_subject, c_professor, c_time):
+		self.c_name = c_name
+		self.c_subject = c_subject
+		self.c_professor = c_professor
+		self.c_time = c_time
+		
+	def getName(self):
+		return self.c_name
+		
+	def setName(self, name):
+		self.c_name = name
+	
+	def getSubject(self):
+		return self.c_subject
+		
+	def setSubject(self, subject):
+		self.c_subject = subject
+		
+	def getProfessor(self):
+		return self.c_professor
+		
+	def setProfessor(self, professor):
+		self.c_professor = professor
+		
+	def getTime(self):
+		return self.c_time
+		
+	def setTime(self, time):
+		self.c_time = time
