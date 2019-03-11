@@ -43,16 +43,18 @@ https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_a
 ***
 **RETROSPECTIVE**  
 _WHAT WENT WELL AND WHAT DIDN'T_  
-+Everyone was willing to work and did what they could.  
-+Everyone understood and accepted their role.  
-+Everyone communicated when needed; everyone was responsive.  
-+The team could have benefited from meeting in person more often.    
-+The team struggled to produce initially due to a learning curve.  
-+Peter Cowsar:  
+•	Everyone was willing to work and did what they could.  
+•	Everyone understood and accepted their role.  
+•	Everyone communicated when needed; everyone was responsive.  
+•	The team could have benefited from meeting in person more often.    
+•	The team struggled to produce initially due to a learning curve.  
+•	Peter Cowsar:  
 &nbsp;&nbsp;(WHAT WENT WELL) I got the database to a functional stage that could be used to test and create the application.  
 &nbsp;&nbsp;(WHAT DID NOT) I could have helped start the process of joining the database with the other application components.  
+
 _WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
-+The team's various schedules are not very compatible. Multiple meet ups are necessary to meet with every group member.
+•	The team's various schedules are not very compatible. Multiple meet ups are necessary to meet with every group member.
+
 _WHAT CAN WE DO TO IMPROVE_  
-+The team can improve by meeting more often and developing a better understanding of the other members' work.  
-+Peter Cowsar: I could improve by scheduling times to meet with individual group members and scheduling my own working time. This would increase the quality and efficiency of my working hours dramatically.  
+•	The team can improve by meeting more often and developing a better understanding of the other members' work.  
+•	Peter Cowsar: I could improve by scheduling times to meet with individual group members and scheduling my own working time. This would increase the quality and efficiency of my working hours significantly.  
