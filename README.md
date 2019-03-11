@@ -17,7 +17,7 @@ UPair can expand and spread to many different universities across the globe with
 Current State of Program
 
 UPair is currently non functional as the code is still be created by the development team. The development team is currently making progress toward runnable code. Current steps that are being taken are: the creation of program backbone, creation of database operation code, creation of program flow, and design of a graphical user interface. Current steps that have been completed: creation of a Use Case document for the program flow.
-
+***
 FEATURE AND ACCOMPLISHEMTS PER TEAM MEMBER:
 -Example of artifact or code. reference to your personal readme. What your commits are. Status of the project and each of our next steps.
 
@@ -38,4 +38,4 @@ https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_a
   *Database: This is a backup file for the database that can be used to recreate the database structure and contents. It is not possible to upload an immediately runnable database.  
   *Database fill data: Some of the insert statements that were used to fill the table with mock data.  
   *Table structure: Shows the structure of the tables in the database.
-
+What's next: Work with Jon and Jacob to connect the database to the python backend and website. Add more mock data. Possible modifications to database if necessary.
