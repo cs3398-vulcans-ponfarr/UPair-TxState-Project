@@ -49,8 +49,8 @@ _WHAT WENT WELL AND WHAT DIDN'T_
 •	The team could have benefited from meeting in person more often.    
 •	The team struggled to produce initially due to a learning curve.  
 •	Peter Cowsar:  
-&nbsp;&nbsp;(WHAT WENT WELL) I got the database to a functional stage that could be used to test and create the application.  
-&nbsp;&nbsp;(WHAT DID NOT) I could have helped start the process of joining the database with the other application components.  
+&nbsp;&nbsp; I got the database to a functional stage that could be used to test and create the application.  
+&nbsp;&nbsp; I could have helped initiate the process of joining the database with the other application components.  
 
 _WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
 •	The team's various schedules are not very compatible. Multiple meet ups are necessary to meet with every group member.
