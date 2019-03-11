@@ -17,3 +17,21 @@ UPair can expand and spread to many different universities across the globe with
 Current State of Program
 
 UPair is currently non functional as the code is still be created by the development team. The development team is currently making progress toward runnable code. Current steps that are being taken are: the creation of program backbone, creation of database operation code, creation of program flow, and design of a graphical user interface. Current steps that have been completed: creation of a Use Case document for the program flow.
+
+FEATURE AND ACCOMPLISHEMTS PER TEAM MEMBER:
+-Example of artifact or code. reference to your personal readme. What your commits are. Status of the project and each of our next steps.
+
+•	Jacob Gotcher, 
+
+
+
+•	Jon-Paul Kasper, 
+
+
+
+•	Cameron Valdez, 
+
+
+
+•	Peter Cowsar
+
