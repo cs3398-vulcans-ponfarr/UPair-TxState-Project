@@ -22,6 +22,7 @@ FEATURE AND ACCOMPLISHEMTS PER TEAM MEMBER:
 -Example of artifact or code. reference to your personal readme. What your commits are. Status of the project and each of our next steps.
 
 •	Jacob Gotcher, 
+https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/README.txt
 
 
 
