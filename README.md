@@ -34,5 +34,5 @@ https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_a
 
 
 
-•	Peter Cowsar
+•	Peter Cowsar, Artifacts: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair.bak), [Database fill data](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_fill_data.sql), [Image displaying table structure](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_Table_Structure.png)
 
