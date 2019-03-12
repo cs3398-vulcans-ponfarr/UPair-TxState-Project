@@ -58,8 +58,8 @@ _WHAT WENT WELL AND WHAT DIDN'T_
 •	Peter Cowsar:  
 &nbsp;&nbsp; I got the database to a functional stage that could be used to test and create the application.  
 &nbsp;&nbsp; I could have helped initiate the process of joining the database with the other application components.  
-•	Jacob Gotcher: I built the front side website and coded the initial app.py driver file.
-•	Jon-Paul Kasper: Classes for the backend using python
+•	Jacob Gotcher: I built the front side website and coded the initial app.py driver file.  
+•	Jon-Paul Kasper: Classes for the backend using python  
 •	Cameron Valdez: Python backend working to integrate the database.
   
 
