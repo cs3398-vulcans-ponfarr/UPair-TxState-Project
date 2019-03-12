@@ -1,4 +1,4 @@
-####CS3398-Vulcan-S2019####
+####CS3398-Vulcan-S2019
 
 [UPair] (working title)
 
