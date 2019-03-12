@@ -29,8 +29,9 @@ https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_a
 
 •	Jon-Paul Kasper, 
 https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/tree/master/python%20backbone
+
 These files are notes used for creation of the Python backend. The code and notes are used to modify the operation of the program as it is developed. The User Class python file is to be used for the creation of different user objects. The Classes Class python file is to be used for the creation of different class objects. The Group Class python file is to be used for the creation of different group objects. All of these files will be modified as the program is developed to adapt to the needs of the program.
-***
+
 _WHAT'S NEXT_
 Determine what needs to be built next in the back end. Build what is required for the back end. Work with Jacob and Peter to connect the back end with the database and website. Determine if there are any extras that can be built for the project.
 
