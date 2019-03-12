@@ -36,7 +36,7 @@ _WHAT'S NEXT_
 Determine what needs to be built next in the back end. Build what is required for the back end. Work with Jacob and Peter to connect the back end with the database and website. Determine if there are any extras that can be built for the project.
 
 
-•	Cameron Valdez, 
+•	Cameron Valdez, https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/.idea/se_app.iml
 
 
 
