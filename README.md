@@ -70,5 +70,5 @@ _WHAT CAN WE DO TO IMPROVE_
 •	The team can improve by meeting more often and developing a better understanding of the other members' work.  
 •	Peter Cowsar: I could improve by scheduling times to meet with individual group members and scheduling my own working time. This would increase the quality and efficiency of my working hours significantly.  
 •	 Jacob Gotcher: I need to work on the UI/UX of the front side website to make the site user friendly and aestheticly pleasing . I really need to communicate better with my teammates about the progress of all assignments and projects.  
-•Jon-Paul Kasper: Be able to meet up with teammates at least one a week	 
+•Jon-Paul Kasper: Be able to meet up with teammates at least one a week	  
 •Cameron Valdez: Work to coordinate my work with that of the groups.	
