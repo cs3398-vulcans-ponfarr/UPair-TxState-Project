@@ -38,8 +38,11 @@ Determine what needs to be built next in the back end. Build what is required fo
 
 
 •	Cameron Valdez, https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/.idea/se_app.iml
-Back-end work in python for the driver file instantiating the database.
-
+Back-end work in python for the driver file instantiating the database. All queries for data within the database will be held here.
+_STATUS_ 
+Working on translating commented SQL query into a Python statement. Writing additional python statements to pull student information.
+_WHAT'S NEXT_
+After this is done, I will move on to working on a match method that will provide a list of user's emails to mass contact.
 
 
 •	Peter Cowsar, Artifacts: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair.bak), [Database fill data](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_fill_data.sql), [Image displaying table structure](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_Table_Structure.png)  
