@@ -37,7 +37,9 @@ _WHAT'S NEXT_
 Determine what needs to be built next in the back end. Build what is required for the back end. Work with Jacob and Peter to connect the back end with the database and website. Determine if there are any extras that can be built for the project.
 
 
-### •	**Cameron Valdez**, https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py
+### •	**Cameron Valdez**, 
+https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py
+
 Back-end work in python for the driver file instantiating the database. All queries for data within the database will be held here.
 _STATUS_ 
 Working on translating commented SQL query into a Python statement. Writing additional python statements to pull student information.
@@ -45,7 +47,9 @@ _WHAT'S NEXT_
 After this is done, I will move on to working on a match method that will provide a list of user's emails to mass contact.
 
 
-### •	**Peter Cowsar**, Artifacts: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair.bak), [Database fill data](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_fill_data.sql), [Image displaying table structure](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_Table_Structure.png)  
+### •	**Peter Cowsar**, 
+
+Artifacts: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair.bak), [Database fill data](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_fill_data.sql), [Image displaying table structure](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_Table_Structure.png)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Database: This is a backup file for the database that can be used to recreate the database structure and contents. It is not possible to upload an immediately runnable database.  
 &nbsp;&nbsp;&nbsp;&nbsp;*Database fill data: Some of the insert statements that were used to fill the table with mock data.  
 &nbsp;&nbsp;&nbsp;&nbsp;*Table structure: Shows the structure of the tables in the database.  
