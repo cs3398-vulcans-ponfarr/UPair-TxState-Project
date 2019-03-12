@@ -51,8 +51,8 @@ After this is done, I will move on to working on a match method that will provid
 &nbsp;&nbsp;&nbsp;&nbsp;*Table structure: Shows the structure of the tables in the database.  
 &nbsp;&nbsp;&nbsp;&nbsp;What's next: Work with Jon and Jacob to connect the database to the python backend and website. Add more mock data. Possible modifications to database if necessary.  
 ***
-**RETROSPECTIVE**  
-_WHAT WENT WELL AND WHAT DIDN'T_  
+## **RETROSPECTIVE**  
+### _WHAT WENT WELL AND WHAT DIDN'T_  
 •	Everyone was willing to work and did what they could.  
 •	Everyone understood and accepted their role.  
 •	Everyone communicated when needed; everyone was responsive.  
@@ -67,10 +67,10 @@ _WHAT WENT WELL AND WHAT DIDN'T_
 •	**Cameron Valdez**: Python backend working to integrate the database.
   
 
-_WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
+### _WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
 •	The team's various schedules are not very compatible. Multiple meet ups are necessary to meet with every group member.
 
-_WHAT CAN WE DO TO IMPROVE_  
+### _WHAT CAN WE DO TO IMPROVE_  
 •	The team can improve by meeting more often and developing a better understanding of the other members' work.  
 •	**Peter Cowsar**: I could improve by scheduling times to meet with individual group members and scheduling my own working time. This would increase the quality and efficiency of my working hours significantly.  
 
