@@ -1,8 +1,8 @@
-# CS3398-Vulcan-S2019
+####CS3398-Vulcan-S2019####
 
 [UPair] (working title)
 
-#Our Vision:#
+Our Vision:
 
 Our team of four will create an application targeted at the students of universities in an attempt to facilitate the creation of study groups. The application will help students who share similar schedules collaborate and study more efficiently.
   
