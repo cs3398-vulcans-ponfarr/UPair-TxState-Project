@@ -1,0 +1,27 @@
+body.dark {
+  background-color: rgb(32,32,32);
+  color: #f9f9f9;
+}
+body.dark code[class*=language-],
+body.dark table tbody>tr:nth-child(odd)>td,
+body.dark table tbody>tr:nth-child(odd)>th,
+body.dark div {
+  background: rgb(32,32,32);
+}
+body.dark input,
+body.dark li {
+  background: rgb(24,24,24);
+}
+form.flagged {
+  background: #ffffff;
+}
+nav.dark,
+nav.dark div {
+  background-color: rgb(44,44,44);
+  color: #f9f9f9;
+}
+nav.dark code[class*=language-],
+nav.dark table tbody>tr:nth-child(odd)>td,
+nav.dark table tbody>tr:nth-child(odd)>th {
+  background: #282c34
+}

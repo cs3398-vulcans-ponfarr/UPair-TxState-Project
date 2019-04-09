@@ -1,9 +1,0 @@
-body.dark {
-  background-color: rgb(32,32,32);
-  color: #ffb;
-}
-body.dark code[class*=language-],
-body.dark table tbody>tr:nth-child(odd)>td,
-body.dark table tbody>tr:nth-child(odd)>th {
-  background: #282c34
-}

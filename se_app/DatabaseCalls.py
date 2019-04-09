@@ -20,5 +20,8 @@ cursor.execute('SELECT StudentID FROM dbo.StudentClass')
 
 #HAVING COUNT(STUDENTID) >= 2;
 
+
+
+
 for row in cursor:
     print(row)

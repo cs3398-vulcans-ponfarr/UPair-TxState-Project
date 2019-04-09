@@ -7,16 +7,24 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="/static/darkmode.css">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
     {% if title %}
-        <title>Vulcan Project - {{ title }}</title>
+        <title>VULCANS - {{ title }}</title>
     {% else %}
         <title>Vulcan Project</title>
     {% endif %}
 </head>
-<body>
+<body class="dark">
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  ((localStorage.getItem('mode') || 'dark') === 'dark') ? (document.querySelector('body').classList.add('dark'), document.querySelector('nav').classList.add('dark')) : (document.querySelector('body').classList.remove('dark'), document.querySelector('nav').classList.remove('dark'))
+})
+</script>
+<p>
+  <a href="#" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? (document.querySelector('body').classList.add('dark'), document.querySelector('nav').classList.add('dark')) : (document.querySelector('body').classList.remove('dark'), document.querySelector('nav').classList.remove('dark'))" title="Dark/light">⚡</a>
+</p>
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
