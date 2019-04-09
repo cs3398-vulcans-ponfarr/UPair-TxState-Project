@@ -49,7 +49,9 @@ After this is done, I will move on to working on a match method that will provid
 
 ### •	**Peter Cowsar**, 
 
-Artifacts: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair.bak), [Database fill data](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_fill_data.sql), [Image displaying table structure](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_Table_Structure.png)  
+Artifacts: 
+Sprint 1: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair.bak), [Database fill data](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_fill_data.sql), [Image displaying table structure](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_Table_Structure.png)  
+Sprint 2: [Darkmode css](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/darkmode.css), [Updated DatabaseCalls.py](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/DatabaseCalls.py)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Database: This is a backup file for the database that can be used to recreate the database structure and contents. It is not possible to upload an immediately runnable database.  
 &nbsp;&nbsp;&nbsp;&nbsp;*Database fill data: Some of the insert statements that were used to fill the table with mock data.  
 &nbsp;&nbsp;&nbsp;&nbsp;*Table structure: Shows the structure of the tables in the database.  
