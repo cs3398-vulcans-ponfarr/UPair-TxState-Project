@@ -27,9 +27,9 @@ Sprint 1: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/m
 Front side and driver file app.py for the web application folder.  
   
 Sprint 2: (identify artificants from sprint 2 and link, add a what's next)  
-_STATUS_  
+Made changes to front-side webpages. Modified aspects of the CSS to have a cleaner looking page. 
   
-_WHAT'S NEXT_  
+My largest responsibility coming into Sprint 3 is to have all the front-side code uploaded to GitHub. Also, the importance of the group getting together cannot be overstated. I will take the responsibility for putting the disparate aspects of the project together. 
   
 
 
