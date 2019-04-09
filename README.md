@@ -41,9 +41,10 @@ _WHAT'S NEXT_
 Determine what needs to be built next in the back end. Build what is required for the back end. Work with Jacob and Peter to connect the back end with the database and website. Determine if there are any extras that can be built for the project.
   
 Sprint 2: (identify artificants from sprint 2 and link, add a what's next)  
-_STATUS_  
+Created a work in progress UPair logo using input from other team members. Logo was uploaded but doesn't exist on git for some reason and file has been removed from personal PC.
   
 _WHAT'S NEXT_  
+Recreate the logo and re-upload for future sprint. Follow up with Sprint 1 for "What's Next".
   
 ### •	**Cameron Valdez**,  
 Sprint 1: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py  
