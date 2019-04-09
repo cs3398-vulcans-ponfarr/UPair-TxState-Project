@@ -48,6 +48,10 @@ _WHAT'S NEXT_
 ### •	**Cameron Valdez**,  
 Sprint 1: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py  
 
+Sprint 2: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py
+          Additional functions pulled into DataBasecalls.py. Peter and I figured out the correct syntax to use when querying        the SQL database. Continued to develop functions to operate as the functionality of the website.
+          Also, I fixed a cache issue we were having with Flask. Although we were making changes to the website html and css files, no changes were being refelected locally. Clearing the cache, hard killing the respective process, and restarting Flask seemed to do the trick. This is a little known issue with Flask that can occur depending on the FLASK_ENV variable used in the configuration. What we have uploaded onto the remote repository should now work on each of our computers assuming you have the correct dependencies.
+
 Back-end work in python for the driver file instantiating the database. All queries for data within the database will be held here.
 _STATUS_ 
 Working on translating commented SQL query into a Python statement. Writing additional python statements to pull student information.
@@ -58,7 +62,8 @@ Sprint 2: (identify artificants from sprint 2 and link, add a what's next)
 _STATUS_  
   
 _WHAT'S NEXT_  
-  
+
+
 ### •	**Peter Cowsar**, 
 
 Artifacts:  
