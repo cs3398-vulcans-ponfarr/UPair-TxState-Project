@@ -32,4 +32,19 @@ def getMessage(user, target_user, school_id):
     message.format(user=to_data.Name, target_user=from_data.Name, \
                    target_user_email=from_data.Email)
 
+    cursor.execute('SELECT StudentID FROM dbo.StudentClass')
+
+    # Needs to be translated into a pyodbc sql statement.
+    # WHERE COURSEID in
+
+    # (SELECT COURSEID
+
+    # from STUDENTCLASS
+
+    # WHERE STUDENTID = 'A00000002')
+
+    # GROUP BY STUDENTID
+
+    # HAVING COUNT(STUDENTID) >= 2;
+    print(row)
     return message
