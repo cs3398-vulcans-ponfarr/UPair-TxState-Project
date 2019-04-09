@@ -27,7 +27,10 @@ Sprint 1: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/m
 Front side and driver file app.py for the web application folder.  
   
 Sprint 2: (identify artificants from sprint 2 and link, add a what's next)  
-_WHAT'S NEXT_:
+_STATUS_  
+  
+_WHAT'S NEXT_  
+  
 
 
 ### • 	**Jon-Paul Kasper**,  
@@ -38,7 +41,10 @@ _WHAT'S NEXT_
 Determine what needs to be built next in the back end. Build what is required for the back end. Work with Jacob and Peter to connect the back end with the database and website. Determine if there are any extras that can be built for the project.
   
 Sprint 2: (identify artificants from sprint 2 and link, add a what's next)  
-_WHAT'S NEXT_:
+_STATUS_  
+  
+_WHAT'S NEXT_  
+  
 ### •	**Cameron Valdez**,  
 Sprint 1: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py  
 
@@ -49,7 +55,10 @@ _WHAT'S NEXT_
 After this is done, I will move on to working on a match method that will provide a list of user's emails to mass contact.  
 
 Sprint 2: (identify artificants from sprint 2 and link, add a what's next)  
-_WHAT'S NEXT_:
+_STATUS_  
+  
+_WHAT'S NEXT_  
+  
 ### •	**Peter Cowsar**, 
 
 Artifacts:  
@@ -60,7 +69,11 @@ Sprint 1: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Pro
 &nbsp;&nbsp;&nbsp;&nbsp;What's next: Work with Jon and Jacob to connect the database to the python backend and website. Add more mock data. Possible modifications to database if necessary.  
   
 Sprint 2: [Darkmode css](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/darkmode.css) This is the css for applying darkmode to the website. It adjusts the color of multiple elements to make it easier on the eyes, [Updated DatabaseCalls.py](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/DatabaseCalls.py) This change allows the backend to pull in a pre-structured message from the database that the code can than format into a message relevant to particular users.  
-_WHAT'S NEXT_: Connect all of the components of the application together and support multiple logins through the database
+_STATUS_  
+Need to meet with each team member to finish connecting parts that we each have created.  
+_WHAT'S NEXT_  
+Connect all of the components of the application together and support multiple logins through the database  
+  
 ***
 ## **SPRINT 1 RETROSPECTIVE**  
 ### _WHAT WENT WELL AND WHAT DIDN'T_  
