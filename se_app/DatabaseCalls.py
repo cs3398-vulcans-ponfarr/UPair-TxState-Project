@@ -31,4 +31,5 @@ def getMessage(user, target_user, school_id):
     """, target_user,school_id).fetchone()
     message.format(user=to_data.Name, target_user=from_data.Name, \
                    target_user_email=from_data.Email)
-return message
+
+    return message
