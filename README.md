@@ -138,8 +138,7 @@ Connect all of the components of the application together and support multiple l
 
 ### _WHAT CAN WE DO TO IMPROVE_  
 •	The team can improve by meeting more often and developing a better understanding of the other members' work.  
-•	**Peter Cowsar**: I could improve by scheduling times to meet with individual group members and explaining my work.  
-•	**Jacob Gotcher**: I need to manage my workflow better and update the Sprint, GitHub, and other teammates.  
+•	**Peter Cowsar**: I could improve by scheduling times to meet with individual group members and explaining my work. I could make sure to meet with at least one member per week.  
+•	**Jacob Gotcher**: I need to manage my workflow better and update the Sprint, GitHub, and other teammates. I can ensure my workflow improves by scheduling hours and notifying my teammates when I do get work done and when I know I will be unable to get work done.  
 • **Jon-Paul Kasper**: Be able to meet up with teammates at least one a week	  
-• **Cameron Valdez**: Meeting with each team member individually and get what I need from them (since our schedules don't mesh well together).	
-
+• **Cameron Valdez**: Meeting with each team member individually and get what I need from them (since our schedules don't mesh well together). To do this I can ask specific people their availability as soon as the need arises.  
