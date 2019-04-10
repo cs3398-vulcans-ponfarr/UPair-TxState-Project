@@ -100,7 +100,7 @@ Connect all of the components of the application together and support multiple l
 •	**Peter Cowsar**:  
 &nbsp;&nbsp; I got the database to a functional stage that could be used to test and create the application.  
 &nbsp;&nbsp; I could have helped initiate the process of joining the database with the other application components.  
-•	**Jacob Gotcher**: I built the front side website and coded the initial app.py driver file.  
+•	**Jacob Gotcher**: Made changes to front-side webpages. Modified aspects of the CSS to have a cleaner looking page. 
 •	**Jon-Paul Kasper**: Classes for the backend using python  
 
 •	**Cameron Valdez**: Python backend working to integrate the database.
@@ -117,4 +117,32 @@ Connect all of the components of the application together and support multiple l
 
 •**Jon-Paul Kasper**: Be able to meet up with teammates at least one a week	  
 
+•**Cameron Valdez**: I fixed a cache issue we were having with Flask.
+
+## **SPRINT 2 RETROSPECTIVE**  
+### _WHAT WENT WELL AND WHAT DIDN'T_  
+•Everyone was on the same page as far as what was needed.  
+•	All team members helped come to agreement on the Sprint Issues  
+•	The team communicated well on Slack.
+•	The team could have benefited from meeting in person more often.    
+•	The team seemed to be very busy with their respective classes and work schedules; could never meet.
+•	**Peter Cowsar**:  
+&nbsp;&nbsp; I coded the backend to pull in a pre-structured message from the database that the code can than format into a message relevant to particular users.  
+  
+•	**Jacob Gotcher**: I built the front side website and coded the initial app.py driver file.  
+•	**Jon-Paul Kasper**: Made the logo.  
+
+•	**Cameron Valdez**: Python backend working to integrate the database.
+  
+
+### _WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
+•	The team's various schedules are not very compatible. Multiple meet ups are necessary to meet with every group member and even then it is difficult.
+
+### _WHAT CAN WE DO TO IMPROVE_  
+•	The team can improve by meeting more often and developing a better understanding of the other members' work.  
+•	**Peter Cowsar**: I could improve by scheduling times to meet with individual group members and explaining my work.
+•	**Jacob Gotcher**: I need to manage my workflow better and update the Sprint, GitHub, and other teammates.
+•**Jon-Paul Kasper**: Be able to meet up with teammates at least one a week	  
+
 •**Cameron Valdez**: Work to coordinate my work with that of the groups.	
+
