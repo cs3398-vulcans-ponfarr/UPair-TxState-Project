@@ -125,7 +125,7 @@ Connect all of the components of the application together and support multiple l
 •	All team members helped come to agreement on the Sprint Issues  
 •	The team communicated well on Slack.
 •	The team could have benefited from meeting in person more often.    
-•	The team seemed to be very busy with their respective classes and work schedules; could never meet.
+•	The team seemed to be very busy with their respective classes and work schedules; could never meet.  
 •	**Peter Cowsar**:  
 &nbsp;&nbsp; I coded the backend to pull in a pre-structured message from the database that the code can than format into a message relevant to particular users.  
   
