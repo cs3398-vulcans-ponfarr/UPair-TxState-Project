@@ -31,6 +31,12 @@ https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_a
 Made changes to front-side webpages. Modified aspects of the CSS to have a cleaner looking page. 
   
 My largest responsibility coming into Sprint 3 is to have all the front-side code uploaded to GitHub. Also, the importance of the group getting together cannot be overstated. I will take the responsibility for putting the disparate aspects of the project together. 
+
+Retrospective:
+We have continued to communicate well on Slack, but we should be meeting in person much more often.
+Our schedules are impeding our group from doing better as it prohibits us from meeting in-person.
+To improve, if we can meet on the weekends one time during our next Sprint for 3 hours, we could accomplish much.
+
   
 
 
