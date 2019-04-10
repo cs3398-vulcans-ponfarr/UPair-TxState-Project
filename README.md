@@ -56,20 +56,22 @@ Recreate the logo and re-upload for future sprint. Follow up with Sprint 1 for "
 ### •	**Cameron Valdez**,  
 Sprint 1: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py  
 
-Sprint 2: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py
-          Additional functions pulled into DataBasecalls.py. Peter and I figured out the correct syntax to use when querying        the SQL database. Continued to develop functions to operate as the functionality of the website.
-          Also, I fixed a cache issue we were having with Flask. Although we were making changes to the website html and css files, no changes were being refelected locally. Clearing the cache, hard killing the respective process, and restarting Flask seemed to do the trick. This is a little known issue with Flask that can occur depending on the FLASK_ENV variable used in the configuration. What we have uploaded onto the remote repository should now work on each of our computers assuming you have the correct dependencies.
 
 Back-end work in python for the driver file instantiating the database. All queries for data within the database will be held here.
 _STATUS_ 
 Working on translating commented SQL query into a Python statement. Writing additional python statements to pull student information.
 _WHAT'S NEXT_
-After this is done, I will move on to working on a match method that will provide a list of user's emails to mass contact.  
+After this is done, I will move on to working on a match method that will provide a list of user's emails to mass contact. 
 
-Sprint 2: (identify artificants from sprint 2 and link, add a what's next)  
+Sprint 2: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py
+          Additional functions pulled into DataBasecalls.py. Peter and I figured out the correct syntax to use when querying        the SQL database. Continued to develop functions to operate as the functionality of the website.
+          Also, I fixed a cache issue we were having with Flask. Although we were making changes to the website html and css files, no changes were being refelected locally. Clearing the cache, hard killing the respective process, and restarting Flask seemed to do the trick. This is a little known issue with Flask that can occur depending on the FLASK_ENV variable used in the configuration. What we have uploaded onto the remote repository should now work on each of our computers assuming you have the correct dependencies.
+ 
 _STATUS_  
+The database needs to be connected with the website. A user is not able to access their information in the database yet, but the UI of the website is set up.
   
 _WHAT'S NEXT_  
+The written database functions will be called in the main app.py file and a tutorial will be fully fleshed out to walk users through the process.
 
 
 ### •	**Peter Cowsar**, 
