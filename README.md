@@ -130,7 +130,7 @@ Connect all of the components of the application together and support multiple l
 •	**Peter Cowsar**: I coded the backend to pull in a pre-structured message from the database that the code can than format into a message relevant to particular users.  
 •	**Jacob Gotcher**: I built the front side website and coded the initial app.py driver file.  
 •	**Jon-Paul Kasper**: Made the logo.  
-•	**Cameron Valdez**: Python backend working to integrate the database.  
+•	**Cameron Valdez**: Python backend working to integrate the database and fixed our issue with Flask.
   
 
 ### _WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
@@ -141,5 +141,5 @@ Connect all of the components of the application together and support multiple l
 •	**Peter Cowsar**: I could improve by scheduling times to meet with individual group members and explaining my work.  
 •	**Jacob Gotcher**: I need to manage my workflow better and update the Sprint, GitHub, and other teammates.  
 • **Jon-Paul Kasper**: Be able to meet up with teammates at least one a week	  
-• **Cameron Valdez**: Work to coordinate my work with that of the groups.	
+• **Cameron Valdez**: Meeting with each team member individually and get what I need from them (since our schedules don't mesh well together).	
 
