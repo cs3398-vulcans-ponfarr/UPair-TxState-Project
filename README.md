@@ -126,13 +126,11 @@ Connect all of the components of the application together and support multiple l
 •	The team communicated well on Slack.
 •	The team could have benefited from meeting in person more often.    
 •	The team seemed to be very busy with their respective classes and work schedules; could never meet.  
-•	**Peter Cowsar**:  
-&nbsp;&nbsp; I coded the backend to pull in a pre-structured message from the database that the code can than format into a message relevant to particular users.  
   
+•	**Peter Cowsar**: I coded the backend to pull in a pre-structured message from the database that the code can than format into a message relevant to particular users.  
 •	**Jacob Gotcher**: I built the front side website and coded the initial app.py driver file.  
 •	**Jon-Paul Kasper**: Made the logo.  
-
-•	**Cameron Valdez**: Python backend working to integrate the database.
+•	**Cameron Valdez**: Python backend working to integrate the database.  
   
 
 ### _WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
