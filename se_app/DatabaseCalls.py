@@ -5,10 +5,11 @@ conn = pyodbc.connect('Driver={SQL Server};'
                       'Trusted_Connection=yes;')
 
 cursor = conn.cursor()
-cursor.execute('SELECT * FROM dbo.STUDENT')
 
-for row in cursor:
-    print(row)
+#cursor.execute('SELECT * FROM dbo.STUDENT')
+
+#for row in cursor:
+  #   print(row)
 
 def getMessage(user, target_user, school_id):
     message = cursor.execute("""
@@ -31,20 +32,23 @@ def getMessage(user, target_user, school_id):
     """, target_user,school_id).fetchone()
     message.format(user=to_data.Name, target_user=from_data.Name, \
                    target_user_email=from_data.Email)
-
-    cursor.execute('SELECT StudentID FROM dbo.StudentClass')
-
-    # Needs to be translated into a pyodbc sql statement.
-    # WHERE COURSEID in
-
-    # (SELECT COURSEID
-
-    # from STUDENTCLASS
-
-    # WHERE STUDENTID = 'A00000002')
-
-    # GROUP BY STUDENTID
-
-    # HAVING COUNT(STUDENTID) >= 2;
-    print(row)
     return message
+
+
+def getShared(user, student_id):
+    shared = cursor.execute("""
+    select StudentID
+    from StudentClass
+    where CourseID in 
+    (select CourseID
+    from StudentClass
+    where StudentID = ?)
+    group by StudentID
+    having COUNT(StudentID) >= 2;
+    """, student_id)
+    if shared == 'NULL':
+        return 0
+    rows = list()
+    for row in shared:
+        rows.append(row)
+    return rows
