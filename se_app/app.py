@@ -5,8 +5,6 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'bc158abb4eeeedac31b250d17e4f4bae'
 
 
-
-
 @app.route("/")
 @app.route("/home")
 def home():

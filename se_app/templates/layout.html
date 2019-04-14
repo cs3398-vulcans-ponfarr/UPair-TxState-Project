@@ -22,13 +22,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
   ((localStorage.getItem('mode') || 'dark') === 'dark') ? (document.querySelector('body').classList.add('dark'), document.querySelector('nav').classList.add('dark')) : (document.querySelector('body').classList.remove('dark'), document.querySelector('nav').classList.remove('dark'))
 })
 </script>
-<p>
-  <a href="#" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? (document.querySelector('body').classList.add('dark'), document.querySelector('nav').classList.add('dark')) : (document.querySelector('body').classList.remove('dark'), document.querySelector('nav').classList.remove('dark'))" title="Dark/light">⚡</a>
-</p>
     <header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel">
         <div class="container">
-          <a class="navbar-brand mr-4" href="/">Vulcan_Project</a>
+          <a class="navbar-brand mr-4" href="/">Vulcan Project</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,6 +43,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         </div>
       </nav>
     </header>
+<p>  <a href="#" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? (document.querySelector('body').classList.add('dark'), document.querySelector('nav').classList.add('dark')) : (document.querySelector('body').classList.remove('dark'), document.querySelector('nav').classList.remove('dark'))" title="Dark/light">⚡</a>
+</p>
     <main role="main" class="container">
       <br></br>
       <br></br>
