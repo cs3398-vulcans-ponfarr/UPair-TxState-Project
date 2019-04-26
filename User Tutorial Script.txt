@@ -1,0 +1,23 @@
+User Tutorial (to be edited as needed):
+
+ - Tutorial starts when the user creates a new account
+
+	Script:
+		"Welcome to UPair! Since this is your first time would you like a tutorial?"
+
+		Creating a new group:
+			"This will help you create a new group."
+			"When creating a new group, be sure to fill out all relevant fields."
+			"Since you are the group creator, you can always come back and change the information later."
+
+		Joining a group:
+			"To join a group, fill out these relevant fields."
+			"Joining this group will send a notification to the other members."
+			"This notification lets the group know that you have joined and will allow you access to the group messaging."
+
+		Refining a group:
+			"You can change the search parameters for finding a group here."
+			"You can refine it by time."
+			"By class subject."
+			"By professor."
+			"By level."
