@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+<html>
+<link rel="stylesheet" href="/static/popupstyle.css">
+<head>
+    <title>Pair</title>
+</head>
+<body>
+<h1>You have been logged in!</h1>
+ <br><br>
+ <br><br>
+ <br><br>
+ <br><br>
+ <div class="popup" onclick="myFunction()">Click here for instuctions.
+  <span class="popuptext" id="myPopup">Hello and welcome to UPair! You will now see a 'Match' button at the home page. Click it to get started.</span>
+</div>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <style>
+      .w3-btn {width:150px;}
+      </style>
+      <div class="w3-container">
+        <br></br>
+        <p><button  class="w3-button w3-red w3-round-xxlarge">UPair Me a Match!</button></p>
+      <a  href="/login.html" ></a>
+      </div>
+</body>
+</html>
+{% endblock content %}

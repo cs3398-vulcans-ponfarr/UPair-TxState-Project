@@ -51,7 +51,7 @@ def login():
 @app.route('/protected')
 def protected():
     if g.user:
-        return render_template('protected.html')
+        return render_template('pair.html')
 
     return redirect(url_for(login))
 
