@@ -44,15 +44,18 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         if form.email.data != '' and form.password.data != '':
-            flash(DatabaseCalls.getAccount(form.email.data, form.password.data), 'success')
-            return redirect(url_for('pair'))
+            result = DatabaseCalls.getAccount(form.email.data, form.password.data)
+            if result == form.email.data:
+                return redirect(url_for('home'))
+            else:
+                flash('Login Unsuccessful. Please check username and password', 'login')
         else:
-            flash('Login Unsuccessful. Please check username and password', 'danger')
+            flash('Login Unsuccessful. You must enter a username and password', 'login')
     return render_template('login.html', title='Login', form=form)
 
 
-@app.route('/protected')
-def protected():
+@app.route('/pair')
+def pair():
     if g.user:
         return render_template('pair.html')
 

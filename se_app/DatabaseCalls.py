@@ -36,17 +36,21 @@ def getMessage(user, target_user, school_id):
 
 def getAccount(email, password):
     account = cursor.execute("""
-    select email
+    select COUNT(Email)
     from ACCOUNT
     where Email = ?
     and Password = ?
+    GROUP BY Email
     """, email, password)
     if account == 'NULL':
-        return 0
+        return [None]
     rows = list()
     for row in account:
         rows.append(row)
-    return rows
+    if len(rows) == 0:
+        return 0
+    else:
+        return rows[0][0]
 
 def getShared(user, student_id):
     shared = cursor.execute("""
