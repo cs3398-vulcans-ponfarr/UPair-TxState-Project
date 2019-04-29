@@ -2,10 +2,12 @@
 {% block content %}
     <br></br>
     <div class="content-section">
-    {% with messages = get_flashed_messages() %}
+    {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
             {% for message in messages %}
+                {% if category == 'login'%}
                 <h3>{{ message }}</h3>
+                {% endif %}
             {% endfor %}
         {% endif %}
     {% endwith %}

@@ -21,30 +21,33 @@ def about():
 def register():
     form = RegistrationForm()
     if form.validate_on_submit():
-        flash(f'Account created for {form.username.data}!', 'success')
-        return redirect(url_for('home'))
+        if DatabaseCalls.Register(form.school.data, form.email.data, form.student_id.data, form.password.data):
+            flash(f'Account created for {form.email.data}!', 'register')
+        else:
+            flash(f'Email {form.email.data} already taken!', 'register')
+        # return redirect(url_for('home'))
     return render_template('register.html', title='Register', form=form)
 
+@app.route("/schedule", methods=['GET', 'POST'])
+def schedule():
+    form = RegistrationForm()
+    if form.validate_on_submit():
+        if DatabaseCalls.Register(form.school.data, form.email.data, form.student_id.data, form.password.data):
+            flash(f'Account created for {form.email.data}!', 'register')
+        else:
+            flash(f'Email {form.email.data} already taken!', 'register')
+        #return redirect(url_for('home'))
+    return render_template('register.html', title='Register', form=form)
 
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     form = LoginForm()
-    if request.method == 'POST':
-        session.pop('user', None)
-        if form.validate_on_submit():
-            if form.email.data == 'admin@blog.com' and form.password.data == 'password':
-                session['user'] = 'admin@blog.com'
-                return redirect(url_for('protected'))
-#    form = LoginForm()
-#    if form.validate_on_submit():
-#        if form.email.data == 'admin@blog.com' and form.password.data == 'password':
-#            flash('You have been logged in!', 'success')
-
-
-            #{{form.email(class_="flagged")}}
-            #return redirect(url_for('home'))
-#        else:
-#            flash('Login Unsuccessful. Please check username and password', 'danger')
+    if form.validate_on_submit():
+        if form.email.data != '' and form.password.data != '':
+            flash(DatabaseCalls.getAccount(form.email.data, form.password.data), 'success')
+            return redirect(url_for('pair'))
+        else:
+            flash('Login Unsuccessful. Please check username and password', 'danger')
     return render_template('login.html', title='Login', form=form)
 
 
