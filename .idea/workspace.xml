@@ -45,11 +45,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="848" />
-    <option name="y" value="56" />
-    <option name="width" value="2038" />
-    <option name="height" value="1940" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="55" />
+    <option name="y" value="17" />
+    <option name="width" value="1632" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask" type="Python.FlaskServer" nameIsGenerated="true">
+    <configuration name="Flask" type="Python.FlaskServer" factoryName="Flask server" nameIsGenerated="true">
       <module name="UPair-TxState-Project" />
       <option name="target" value="C:\Users\Peter Cowsar\Documents\GitHub\UPair-TxState-Project\se_app\app.py" />
       <option name="targetType" value="PATH" />
@@ -170,6 +170,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Flask server.Flask" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.Unnamed (1)" />
       <item itemvalue="Python.app" />
