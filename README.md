@@ -77,6 +77,17 @@ The database needs to be connected with the website. A user is not able to acces
 _WHAT'S NEXT_  
 The written database functions will be called in the main app.py file and a tutorial will be fully fleshed out to walk users through the process.
 
+Sprint 3: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/emailsvc.py
+          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/static/popupstyle.css
+          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/pair.html
+          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/app.py
+
+During Sprint 3, I set up the automated emailing service, made the website sessionable for different users, and provided a pop-up tutorial when a user logs in.
+
+_STATUS_ 
+Emailing, sessions, and the tutorial is finished.
+_WHAT'S NEXT_
+Refining the tutorial (how it looks, etc) and making logout/login disappear upon login.
 
 ### •	**Peter Cowsar**, 
 
@@ -150,6 +161,4 @@ Connect all of the components of the application together and support multiple l
 ## **SPRINT 3 RETROSPECTIVE**
 ### _WHAT WENT WELL AND WHAT DIDN'T_
 
-**Jon-Paul Kasper**: I created the logo to the specifications that each member of the team believed should be a part of it. The logo can be found here: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_logo_1.png I also wrote a basic english script for the UPair application that can be accessed by new users or as a refresher for returning users. The script can be found here: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/User%20Tutorial%20Script.txt 
-**Jacob Gotcher**:I changed the about page and removed the sidebar that was an artifact from an earlier version. It was difficult to get through the Sprint becasue of a challenging class schedule and year-end course work. I think we all tried to fulfill our indevidual mandates, but may have come up short of our group expectations. Overall, I think we needed to meet up more often and a whole group, but we got a lot completed. Some of my work this Sprint
-https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/about.html
+**Jon-Paul Kasper**: Logo was completed and finalized. Written script for the application tutorial was completed.
