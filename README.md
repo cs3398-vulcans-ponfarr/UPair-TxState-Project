@@ -91,10 +91,12 @@ Sprint 1: [Database](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Pro
 &nbsp;&nbsp;&nbsp;&nbsp;What's next: Work with Jon and Jacob to connect the database to the python backend and website. Add more mock data. Possible modifications to database if necessary.  
   
 Sprint 2: [Darkmode css](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/darkmode.css) This is the css for applying darkmode to the website. It adjusts the color of multiple elements to make it easier on the eyes, [Updated DatabaseCalls.py](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/DatabaseCalls.py) This change allows the backend to pull in a pre-structured message from the database that the code can than format into a message relevant to particular users.  
+  
+Spring 3: [Database calls update](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py) This update allowed pulling user emails from shared classes. [Main app update](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/app.py) This update allowed running the code that sent emails out to potential partners. [Database update](https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/UPair.bak) This update included some changes and additions that allowed the email code to function properly.
 _STATUS_  
-Need to meet with each team member to finish connecting parts that we each have created.  
+The program is functional but needs polishing. Some additional features would improve the app.
 _WHAT'S NEXT_  
-Connect all of the components of the application together and support multiple logins through the database  
+If the app were to be continued the next step would be allowing students to sign up for their own schedules when it is not possible to get the data from the University.  
   
 ***
 ## **SPRINT 1 RETROSPECTIVE**  
