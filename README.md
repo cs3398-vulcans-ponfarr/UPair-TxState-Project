@@ -150,6 +150,6 @@ Connect all of the components of the application together and support multiple l
 ## **SPRINT 3 RETROSPECTIVE**
 ### _WHAT WENT WELL AND WHAT DIDN'T_
 
-**Jon-Paul Kasper**: Logo was completed and finalized. Written script for the application tutorial was completed.
+**Jon-Paul Kasper**: I created the logo to the specifications that each member of the team believed should be a part of it. The logo can be found here: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_logo_1.png I also wrote a basic english script for the UPair application that can be accessed by new users or as a refresher for returning users. The script can be found here: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/User%20Tutorial%20Script.txt 
 **Jacob Gotcher**:I changed the about page and removed the sidebar that was an artifact from an earlier version. It was difficult to get through the Sprint becasue of a challenging class schedule and year-end course work. I think we all tried to fulfill our indevidual mandates, but may have come up short of our group expectations. Overall, I think we needed to meet up more often and a whole group, but we got a lot completed. Some of my work this Sprint
 https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/about.html
