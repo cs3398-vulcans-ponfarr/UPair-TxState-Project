@@ -2,8 +2,18 @@ import smtplib
 import config
 
 
-def send_email(subject, msg, ureciever):
+def send_email(subject, msg, ureciever, usender):
     try:
+        if ureciever is None:
+            ureciever = 'UPairsvc@gmail.com'
+        if subject == 1:
+            subject = 'UPair Request from ' + usender
+        else:
+            subject = 'No subject'
+        if msg == 1:
+            msg = '<Greetings from UPair! This is an automated message notifying you that you have received a pair ' \
+                  'request. The user with email ' + usender + ' shares multiple classes with you! Send them an ' \
+                  'email and start a study connection.'
         server = smtplib.SMTP('smtp.gmail.com:587')
         server.ehlo()
         server.starttls()
@@ -16,10 +26,4 @@ def send_email(subject, msg, ureciever):
         print("Email failed to send.")
 
 
-subject = 'UPair Request'
-msg = '<Greetings from UPair! This is an automated message notifying you that you have received a pair request \
-       hello from our college class matching service. Should you wish to accept this request, please follow the \
-       following link if you wish to accept: http://127.0.0.1:5000/'
-ureciever = 'UPairsvc@gmail.com'
-
-send_email(subject,msg,ureciever)
+#send_email(subject, msg, ureciever)

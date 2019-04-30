@@ -1,6 +1,6 @@
 import pyodbc
 conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=DESKTOP-ORJ51G8\SQLEXPRESS;'
+                      'Server=DESKTOP-5E19TC4\SQLEXPRESS;'
                       'Database=UPair;'
                       'Trusted_Connection=yes;')
 conn.autocommit = True
@@ -36,7 +36,7 @@ def getMessage(user, target_user, school_id):
 
 def getAccount(email, password):
     account = cursor.execute("""
-    select COUNT(Email)
+    select Email
     from ACCOUNT
     where Email = ?
     and Password = ?
@@ -52,7 +52,18 @@ def getAccount(email, password):
     else:
         return rows[0][0]
 
-def getShared(user, student_id):
+def getShared(user):
+    get_id = cursor.execute("""
+    select StudentID
+    from STUDENT
+    where Email = ?
+    """, user)
+    rows = list()
+    for row in get_id:
+        rows.append(row)
+    get_id = rows[0][0]
+    rows = list()
+    rows.append(get_id)
     shared = cursor.execute("""
     select StudentID
     from StudentClass
@@ -60,15 +71,42 @@ def getShared(user, student_id):
     (select CourseID
     from StudentClass
     where StudentID = ?)
+    and not StudentID = ?
     group by StudentID
     having COUNT(StudentID) >= 2;
-    """, student_id)
+    """, get_id, get_id)
     if shared == 'NULL':
         return 0
-    rows = list()
     for row in shared:
-        rows.append(row)
+        rows.append(row[0])
+
     return rows
+
+
+def getRequests(user):
+    shared = getShared(user)
+    get_emails = cursor.execute("""
+        select Email
+        from StudentClass
+        JOIN STUDENT on STUDENT.StudentID = StudentClass.StudentID
+        where CourseID in 
+        (select CourseID
+        from StudentClass
+        where StudentID = ?)
+        and not STUDENT.StudentID = ?
+        group by Email
+        having COUNT(Email) >= 2;
+        """, shared[0], shared[0])
+    if get_emails == 'NULL':
+        return 0
+    rows = list()
+    for row in get_emails:
+        rows.append(row[0])
+    return rows
+
+
+def getRequestees(user):
+    print(user)
 
 
 def Register(school_id, email, student_id, password):

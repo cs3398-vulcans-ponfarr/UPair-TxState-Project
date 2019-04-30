@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for, flash, redirect, session, request, g
 from forms import RegistrationForm, LoginForm
-import DatabaseCalls, os
+import DatabaseCalls, emailsvc, os
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'bc158abb4eeeedac31b250d17e4f4bae'
@@ -46,7 +46,9 @@ def login():
         if form.email.data != '' and form.password.data != '':
             result = DatabaseCalls.getAccount(form.email.data, form.password.data)
             if result == form.email.data:
-                return redirect(url_for('home'))
+                session['user'] = result
+                before_request()
+                #return redirect(url_for('home'))
             else:
                 flash('Login Unsuccessful. Please check username and password', 'login')
         else:
@@ -54,12 +56,30 @@ def login():
     return render_template('login.html', title='Login', form=form)
 
 
-@app.route('/pair')
+@app.route("/pair", methods=['GET', 'POST'])
 def pair():
-    if g.user:
-        return render_template('pair.html')
+    if request.method == 'GET':
+        if g.user:
+            return render_template('pair.html')
+    elif g.user:
+        emails = DatabaseCalls.getRequests(session['user'])
+        for email in emails:
+            emailsvc.send_email(1, 1, email, session['user'])
+        if len(emails) > 0:
+            flash('Pair requests sent out!', 'pair')
+        else:
+            flash('No students share multiple classes with you!', 'pair')
+        return render_template('pair2.html')
+    return redirect(url_for('login'))
 
-    return redirect(url_for(login))
+
+#@app.route('/pair', methods=['POST'])
+#def do_pair():
+#    print("test")
+#    if g.user:
+#        requestees = DatabaseCalls.getRequestees(session['user'])
+#        return render_template('pair2.html')
+#    return redirect(url_for('login'))
 
 
 @app.before_request
