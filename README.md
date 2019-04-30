@@ -37,6 +37,9 @@ We have continued to communicate well on Slack, but we should be meeting in pers
 Our schedules are impeding our group from doing better as it prohibits us from meeting in-person.
 To improve, if we can meet on the weekends one time during our next Sprint for 3 hours, we could accomplish much.
 
+Sprint 3: I made changes to the about page and took of an artifact from a prior version. 
+https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/about.html
+
   
 
 
@@ -77,17 +80,6 @@ The database needs to be connected with the website. A user is not able to acces
 _WHAT'S NEXT_  
 The written database functions will be called in the main app.py file and a tutorial will be fully fleshed out to walk users through the process.
 
-Sprint 3: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/emailsvc.py
-          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/static/popupstyle.css
-          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/pair.html
-          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/app.py
-
-During Sprint 3, I set up the automated emailing service, made the website sessionable for different users, and provided a pop-up tutorial when a user logs in.
-
-_STATUS_ 
-Emailing, sessions, and the tutorial is finished.
-_WHAT'S NEXT_
-Refining the tutorial (how it looks, etc) and making logout/login disappear upon login.
 
 ### •	**Peter Cowsar**, 
 
@@ -162,3 +154,6 @@ Connect all of the components of the application together and support multiple l
 ### _WHAT WENT WELL AND WHAT DIDN'T_
 
 **Jon-Paul Kasper**: Logo was completed and finalized. Written script for the application tutorial was completed.
+**Jacob Gotcher**:I changed the about page and removed the sidebar that was an artifact from an earlier version. It was difficult to get through the Sprint becasue of a challenging class schedule and year-end course work. I think we all tried to fulfill our indevidual mandates, but may have come up short of our group expectations. Overall, I think we needed to meet up more often and a whole group, but we got a lot completed. Some of my work this Sprint
+https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/about.html
+
