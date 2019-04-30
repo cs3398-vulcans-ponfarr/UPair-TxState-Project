@@ -52,6 +52,10 @@ Created a work in progress UPair logo using input from other team members. Logo 
   
 _WHAT'S NEXT_  
 Recreate the logo and re-upload for future sprint. Follow up with Sprint 1 for "What's Next".
+
+Sprint 3: UPair Logo: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/UPair_logo_1.png
+          UPair Tutorial Script: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/User%20Tutorial%20Script.txt
+Created and completed the UPair logo to be used as part of the face of the application. Created a basic written script to be used for the english section of the code that makes up the tutorial. 
   
 ### •	**Cameron Valdez**,  
 Sprint 1: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/DatabaseCalls.py  
@@ -142,3 +146,8 @@ Connect all of the components of the application together and support multiple l
 •	**Jacob Gotcher**: I need to manage my workflow better and update the Sprint, GitHub, and other teammates. I can ensure my workflow improves by scheduling hours and notifying my teammates when I do get work done and when I know I will be unable to get work done.  
 • **Jon-Paul Kasper**: Be able to meet up with teammates at least one a week	  
 • **Cameron Valdez**: Meeting with each team member individually and get what I need from them (since our schedules don't mesh well together). To do this I can ask specific people their availability as soon as the need arises.  
+
+## **SPRINT 3 RETROSPECTIVE**
+### _WHAT WENT WELL AND WHAT DIDN'T_
+
+**Jon-Paul Kasper**: Logo was completed and finalized. Written script for the application tutorial was completed.
