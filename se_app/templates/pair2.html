@@ -6,16 +6,7 @@
     <title>Pair</title>
 </head>
 <body>
-<h1>You are logged in</h1>
- {% with messages = get_flashed_messages(with_categories=true) %}
-        {% if messages %}
-            {% for message in messages %}
-                {% if category == 'pair'%}
-                <h3>{{ message }}</h3>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endwith %}
+<h1>Requests Sent - The user(s) have been sent your contact email</h1>
  <br><br>
  <br><br>
  <br><br>
@@ -30,10 +21,7 @@
       </style>
       <div class="w3-container">
         <br></br>
-          <form action="" method="post">
-        <p><button name="pair" class="w3-button w3-red w3-round-xxlarge">UPair Me a Match!</button></p>
-        </form>
-
+        <p><button  class="w3-button w3-red w3-round-xxlarge">UPair Me a Match!</button></p>
       <a  href="/login.html" ></a>
       </div>
 </body>
