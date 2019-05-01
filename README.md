@@ -156,7 +156,7 @@ If the app were to be continued the next step would be allowing students to sign
 ## **SPRINT 3 RETROSPECTIVE**
 ### _WHAT WENT WELL AND WHAT DIDN'T_
 
-**Jon-Paul Kasper**: Logo was completed and finalized. Written script for the application tutorial was completed.
+**Jon-Paul Kasper**: Logo was completed and finalized. Written script for the application tutorial was completed.  
 **Jacob Gotcher**:I changed the about page and removed the sidebar that was an artifact from an earlier version. It was difficult to get through the Sprint becasue of a challenging class schedule and year-end course work. I think we all tried to fulfill our individual mandates, but may have come up short of our group expectations. Some of my work this Sprint
 https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/about.html  
 **Peter Cowsar**: I did well early in our sprint but did not get much done towards the middle of the sprint because I became too busy with other classes. That being said; at the end of the sprint I was able to make a lot of progress that helped the app get into a functional state.  
