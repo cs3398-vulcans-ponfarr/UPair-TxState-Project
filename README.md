@@ -80,6 +80,18 @@ The database needs to be connected with the website. A user is not able to acces
 _WHAT'S NEXT_  
 The written database functions will be called in the main app.py file and a tutorial will be fully fleshed out to walk users through the process.
 
+Sprint 3: https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/emailsvc.py
+          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/static/popupstyle.css
+          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/pair.html
+          https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/app.py
+
+During Sprint 3, I set up the automated emailing service, made the website sessionable for different users, and provided a pop-up tutorial when a user logs in.
+
+_STATUS_ 
+Emailing, sessions, and the tutorial is finished.
+_WHAT'S NEXT_
+Refining the tutorial (how it looks, etc) and making logout/login disappear upon login.
+
 
 ### •	**Peter Cowsar**, 
 
