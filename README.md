@@ -172,16 +172,17 @@ If the app were to be continued the next step would be allowing students to sign
 **Jacob Gotcher**:I changed the about page and removed the sidebar that was an artifact from an earlier version. It was difficult to get through the Sprint becasue of a challenging class schedule and year-end course work. I think we all tried to fulfill our individual mandates, but may have come up short of our group expectations. Some of my work this Sprint
 https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_app/templates/about.html  
 **Peter Cowsar**: I did well early in our sprint but did not get much done towards the middle of the sprint because I became too busy with other classes. That being said; at the end of the sprint I was able to make a lot of progress that helped the app get into a functional state.  
-**Cameron Valdez**:  
+**Cameron Valdez**:  During Sprint 3, I set up the automated emailing service, made the website sessionable for different users, and provided a pop-up tutorial when a user logs in. All of these things ended up being finished in the end, so that went well enough. Towards the beginning of the sprint, however, I had to work a lot so I was off to a late start.
+
   
 ### _WHAT MIGHT BE IMPEDING US FROM PERFORMING BETTER_  
 **Jon-Paul Kasper**:  
 **Jacob Gotcher**: Overall, I think we needed to meet up more often as a whole group, but we got a lot completed.  
 **Peter Cowsar**: I prioritized other classes above this one because I had more time to complete my work in this class.    
-**Cameron Valdez**:  
+**Cameron Valdez**:  We did better than either of the other sprints: we met up more, and communicated better. But we still struggled to get a few of the project's functions done in a timely fashion.
   
 ### __WHAT CAN WE DO TO IMPROVE?_  
 **Jon-Paul Kasper**:  
 **Jacob Gotcher**:  
 **Peter Cowsar**: I could have improved by scheduling my time better so that I could get the work done over time instead of in quick bursts.  
-**Cameron Valdez**:  
+**Cameron Valdez**: Going forward, I think that I could communicate what I'm working on, and what files I'm working on so that we don't have issues overwriting each other (this happened only a few times).
