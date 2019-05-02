@@ -181,7 +181,7 @@ https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_a
 **Peter Cowsar**: I prioritized other classes above this one because I had more time to complete my work in this class.    
 **Cameron Valdez**:  We did better than either of the other sprints: we met up more, and communicated better. But we still struggled to get a few of the project's functions done in a timely fashion.
   
-### __WHAT CAN WE DO TO IMPROVE?_  
+### _WHAT CAN WE DO TO IMPROVE?_  
 **Jon-Paul Kasper**:  
 **Jacob Gotcher**:  
 **Peter Cowsar**: I could have improved by scheduling my time better so that I could get the work done over time instead of in quick bursts.  
