@@ -183,6 +183,6 @@ https://github.com/cs3398-vulcans-ponfarr/UPair-TxState-Project/blob/master/se_a
   
 ### _WHAT CAN WE DO TO IMPROVE?_  
 **Jon-Paul Kasper**:  
-**Jacob Gotcher**:  
+**Jacob Gotcher**:  Going forward, communicating with each other is of the upmost importance for group work in the future. It is the key to everything. Also, time management. Get it done early so you are not working furiously at the end.
 **Peter Cowsar**: I could have improved by scheduling my time better so that I could get the work done over time instead of in quick bursts.  
 **Cameron Valdez**: Going forward, I think that I could communicate what I'm working on, and what files I'm working on so that we don't have issues overwriting each other (this happened only a few times).
